@@ -84,7 +84,7 @@ describe('API Test Examples', () => {
     })
 
     //Searches for a user based on email - Unfortunatley I was not able to complete this section fully, 
-    //please see corresponding email
+    //please see corresponding notes section 
     it.only('Makes sure we can search for a user using an email address', () => {
         cy.request({
             method: 'GET',
